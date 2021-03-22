@@ -2,37 +2,89 @@ body {
   font-family: sans-serif;
   padding: 30px;
 }
-h1 {
-  color: darkgrey;
-  text-align: center;
+.left-title {
+  color: #3c3c3c;
+  text-align: left;
   font-size: 20px;
+  font-weight: bolder;
 }
-h2 {
-  color: rgba(255, 123, 0, 0.699);
-  margin-top: 2rem;
+
+.right-title {
+  text-align: right;
+  font-size: 20px;
+  color: #3c3c3c;
 }
 
 .weather-app {
-  border: 1px solid #dadde1;
+  background-color: #b1b1b1b2;
   padding: 30px;
   margin: 20px auto;
   max-width: 800px;
   border-radius: 10px;
 }
+
+.weather-app-result {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 30px;
+  color: #3c3c3c;
+  background-color: white;
+  text-align: left;
+}
+
 .weather-search {
   margin-bottom: 40px;
   margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 0px;
+}
+
+.city-name {
+  font-size: 30px;
 }
 
 li {
   list-style: none;
 }
 .units {
+  font-size: 30px;
   position: relative;
   top: -30px;
 }
 .temperature {
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 400;
   line-height: 1;
+}
+
+.col-md-3 {
+  text-align: center;
+}
+.forecast-title {
+  font-size: 18px;
+  padding: 10px;
+  color: #3c3c3c;
+}
+
+footer {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+.card {
+  margin: 10px;
+  border: none;
+}
+
+.forecast-days {
+  font-size: 18px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: #3c3c3c;
 }
